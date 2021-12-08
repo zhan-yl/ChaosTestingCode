@@ -1,0 +1,234 @@
+{"status": "Success", "timestamp": 1632379085.877556, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632379111.800188, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632379118.537524, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1632379410.565732, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632379431.787161, "message": "", "event": "start", "targets": ["zk1"]}
+{"status": "Success", "timestamp": 1632379762.909379, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632379855.413355, "message": "", "event": "start", "targets": ["kafka1", "kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1632380258.297411, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632380265.231976, "message": "", "event": "start", "targets": ["zk1"]}
+{"status": "Success", "timestamp": 1632380754.841807, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632382797.927569, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632382807.890066, "message": "", "event": "start", "targets": ["zk1"]}
+{"status": "Success", "timestamp": 1632383174.559997, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632383479.78871, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632383754.37097, "message": "", "event": "restart", "targets": ["kafka1", "kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1632383806.705043, "message": "", "event": "start", "targets": ["kafka1", "kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1632384260.891561, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Failed", "timestamp": 1632384266.639264, "message": "500 Server Error: Internal Server Error for url: http+docker://localunixsocket/v1.24/containers/1f2e07c5a44445a7bb7651750df749107e5ff1641319f289f1473602b7307cb8/start (\"Cannot link to a non running container: /cluster_zk1 AS /cluster_kafka1/zk1\")", "event": "start", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Failed", "timestamp": 1632384316.042637, "message": "500 Server Error: Internal Server Error for url: http+docker://localunixsocket/v1.24/containers/1f2e07c5a44445a7bb7651750df749107e5ff1641319f289f1473602b7307cb8/start (\"Cannot link to a non running container: /cluster_zk1 AS /cluster_kafka1/zk1\")", "event": "start", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632384337.993804, "message": "", "event": "start", "targets": ["zk1"]}
+{"status": "Success", "timestamp": 1632384371.310263, "message": "", "event": "start", "targets": ["kafka1", "kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1632384911.566211, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632469718.041313, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632571456.412453, "message": "", "event": "stop", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1632622151.077068, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632624732.117725, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632624944.891571, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632626261.867976, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632638871.704972, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632640204.024995, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632641990.95467, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632642150.866254, "message": "", "event": "join", "targets": []}
+{"status": "Success", "timestamp": 1632646700.801038, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632646853.575281, "message": "", "event": "join", "targets": []}
+{"status": "Success", "timestamp": 1632706023.43064, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632707690.127824, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632725803.050809, "message": "", "event": "join", "targets": []}
+{"status": "Success", "timestamp": 1632725858.951269, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632729247.887736, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632732421.43385, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632732711.563748, "message": "", "event": "join", "targets": []}
+{"status": "Success", "timestamp": 1632732743.359479, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632744125.739738, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632745889.771464, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632746118.246684, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632808865.142938, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632809327.568005, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1632810196.98775, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1632810772.530408, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1632811406.621042, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632894712.668711, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632895165.903958, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632967966.964728, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632969379.661124, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632971737.697502, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632971938.822752, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1632985792.655458, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1632986656.58104, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["zk1"]]}
+{"status": "Success", "timestamp": 1632988607.133138, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Failed", "timestamp": 1632990703.539604, "message": "500 Server Error: Internal Server Error for url: http+docker://localunixsocket/v1.24/containers/1be40767095b186272e23d55a39e6cfbc3bc54372bd25647e3ed4d997a77be1a/start (\"Cannot link to a non running container: /cluster_zk1 AS /cluster_kafka1/zk1\")", "event": "start", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1633681108.761058, "message": "", "event": "slow", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1633681117.61426, "message": "", "event": "slow", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1633681985.677419, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1633682268.548861, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633683164.623358, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1633683338.333139, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1633745803.025737, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1633746124.526009, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633746522.625139, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633746811.503618, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1633747259.655256, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633747524.499818, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633750347.294119, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1633767855.258883, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1633768198.549153, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633768385.327337, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633769296.384026, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1633769371.028448, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1633769522.191956, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1633769571.858893, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1633769765.053892, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634001528.377644, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634001739.360446, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634001818.729297, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634002120.554639, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634002248.242939, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634002301.957252, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634002822.848635, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634003267.700531, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634018658.835608, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634019035.519043, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634019747.329292, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634019872.781929, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634019954.169455, "message": "", "event": "fast", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634019998.038902, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634020038.849072, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634026444.378371, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634026680.442074, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634026743.662427, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634026805.932846, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634026836.722395, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634026869.161453, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634094152.239756, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634094292.355849, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634094360.001874, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634094506.832329, "message": "", "event": "fast", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634094518.614113, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634094956.343935, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634094986.61186, "message": "", "event": "fast", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634095008.768115, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634095096.643702, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634095139.849345, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634095676.137411, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634095768.31662, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634095809.26252, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634096014.467773, "message": "", "event": "start", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634096245.850299, "message": "", "event": "start", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634104840.848021, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634105222.882099, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634105329.148638, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634105436.950682, "message": "", "event": "start", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634105615.965659, "message": "", "event": "start", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634106005.18316, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634106150.677437, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634106467.954037, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1634106555.213065, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634106892.554352, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634107439.334092, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634107525.499489, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634107828.610679, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634108226.919278, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634108253.301837, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634108290.699838, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634108309.859084, "message": "", "event": "start", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1634108401.698625, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634113351.419502, "message": "", "event": "slow", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1634113548.062903, "message": "", "event": "fast", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1634113586.206235, "message": "", "event": "flaky", "targets": ["kafka1", "kafka2", "kafka3", "zk1"]}
+{"status": "Success", "timestamp": 1634114791.676833, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1634114800.224728, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1634114833.990837, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1634114858.822725, "message": "", "event": "start", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1634114938.27968, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1637827693.894465, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1637827919.179544, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1637828599.985153, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1637829112.743421, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1637912904.250699, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1637913292.983227, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1637913586.4838, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1637913937.097339, "message": "", "event": "join", "targets": []}
+{"status": "Success", "timestamp": 1637914287.573373, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638169471.755397, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638170951.429712, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638171654.069929, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638172063.498382, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638173203.444371, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638173416.665851, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638173724.10636, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638174278.463577, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638259707.591117, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638260333.308922, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638260624.831295, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638261154.028664, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1638329422.172737, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1638329645.236168, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638339594.874992, "message": "", "event": "partition", "targets": [["kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1638342086.648355, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638342398.70084, "message": "", "event": "partition", "targets": [["kafka2"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638342884.575308, "message": "", "event": "partition", "targets": [["kafka1"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638343773.481093, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638344352.945253, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638344596.269344, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1638347941.354184, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638348665.040543, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka1", "kafka2", "zk1"]]}
+{"status": "Success", "timestamp": 1638349006.471511, "message": "", "event": "partition", "targets": [["kafka1", "kafka2", "kafka3"], ["kafka2", "kafka3", "zk1"]]}
+{"status": "Success", "timestamp": 1638583264.976808, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1638583720.029629, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638583911.531375, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638584056.537314, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638584398.049337, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638584479.051744, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638584548.565952, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638589035.777039, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638589397.55411, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638589524.22742, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638589745.239808, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638589797.878635, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638589850.946575, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638590060.917315, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638590943.329407, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638591059.923891, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638591108.741827, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638591142.938782, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638591181.451774, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638601112.601007, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1638601393.272619, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638601569.24844, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638601693.638126, "message": "", "event": "fast", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1638601740.413779, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638601791.813687, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638603815.743665, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638604102.041262, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1638605985.966483, "message": "", "event": "slow", "targets": ["kafka1", "kafka2"]}
+{"status": "Success", "timestamp": 1638606235.618865, "message": "", "event": "kill", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638606326.006758, "message": "", "event": "start", "targets": ["kafka3"]}
+{"status": "Success", "timestamp": 1638607056.204432, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1638607423.65829, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638607755.030995, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638607984.972475, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638608078.378992, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638608144.632027, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638608193.554069, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638610404.891725, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638610807.390277, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638610821.20326, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638610880.223922, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638611214.336599, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638611519.548061, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638611802.689738, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638611812.707087, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638611883.197971, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638613454.742075, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638613597.9512, "message": "", "event": "start", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638613668.55413, "message": "", "event": "fast", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638614086.217026, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1638614297.604676, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638614324.31422, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638669109.164292, "message": "", "event": "slow", "targets": ["kafka1", "kafka3"]}
+{"status": "Success", "timestamp": 1638669320.053583, "message": "", "event": "kill", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638669358.463444, "message": "", "event": "start", "targets": ["kafka2"]}
+{"status": "Success", "timestamp": 1638670239.566874, "message": "", "event": "slow", "targets": ["kafka2", "kafka3"]}
+{"status": "Success", "timestamp": 1638670390.858793, "message": "", "event": "kill", "targets": ["kafka1"]}
+{"status": "Success", "timestamp": 1638670420.014297, "message": "", "event": "start", "targets": ["kafka1"]}
